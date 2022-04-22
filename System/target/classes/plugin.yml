@@ -1,0 +1,33 @@
+name: System
+version: '1.0'
+main: de.chaosschwein.system.Main.Systemmain
+api-version: 1.18
+authors: [ ChaosSchwein ]
+description: Das ist ein System für Phillip
+website: https://sytx.eu
+commands:
+  admin:
+    usage: /admin
+    description: Admin Command
+  invsee:
+    usage: /invsee <player>
+    description: Invsee Command
+  system:
+    usage: /system <help | reload | stop | start>
+    description: System Command
+  ec:
+    usage: /ec
+    description: Enderchest Command
+  home:
+    usage: /home (set | remove)
+    description: Home Command
+  chestcheck:
+    usage: /chestcheck (Anzahl)
+    description: Chestcheck Command
+  gm:
+    usage: /gm <0 | 1 | 2 | 3> (Spieler)
+    description: Gamemode Command
+    aliases: [ gamemode ]
+  signedit:
+    usage: /signedit <Zeile> <Text>
+    description: Signedit Command
